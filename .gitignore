@@ -1,0 +1,102 @@
+# Pliki i katalogi związane z Pythonem
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Wirtualne środowiska
+venv/
+env/
+.env
+
+# Pliki IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pliki dzienników
+*.log
+
+# Pliki bazy danych
+*.sqlite3
+
+# Pliki konfiguracyjne
+*.ini
+*.cfg
+
+# Pliki tymczasowe
+*.tmp
+*.bak
+*.swp
+*~
+
+# Pliki systemu operacyjnego
+.DS_Store
+Thumbs.db
+
+# Katalogi z zależnościami
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pliki dystrybucji
+dist/
+build/
+eggs/
+.eggs/
+
+# Pliki dokumentacji
+docs/_build/
+
+# Pliki testów i pokrycia kodu
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Pliki Jupyter Notebook
+.ipynb_checkpoints
+
+# Pliki pyenv
+.python-version
+
+# Pliki pipenv
+Pipfile.lock
+
+# Pliki poetry
+poetry.lock
+
+# Pliki mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pliki Pyre
+.pyre/
+
+# Pliki Pytype
+.pytype/
+
+# Pliki Cython
+*.c
+*.so
+
+# Komentarz: Ten plik .gitignore zawiera typowe wzorce dla projektów Pythona,
+# ignorując pliki tymczasowe, katalogi środowisk wirtualnych, pliki IDE,
+# pliki kompilowane i wiele innych, które nie powinny być śledzone przez Git.
