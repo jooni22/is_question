@@ -12,6 +12,32 @@ app = FastAPI()
 class TextInput(BaseModel):
     text: str
 
+def is_rhetorical_question(text):
+    doc = nlp(text)
+    
+    # Przykładowe reguły heurystyczne
+    rhetorical_patterns = [
+        [{"LOWER": "isn't"}, {"LOWER": "it"}, {"LOWER": "obvious"}],
+        [{"LOWER": "who"}, {"LOWER": "would"}, {"LOWER": "have"}, {"LOWER": "thought"}],
+        [{"LOWER": "do"}, {"LOWER": "i"}, {"LOWER": "really"}, {"LOWER": "need"}, {"LOWER": "to"}, {"LOWER": "explain"}],
+    ]
+    
+    matcher = Matcher(nlp.vocab)
+    for i, pattern in enumerate(rhetorical_patterns):
+        matcher.add(f"RHETORICAL_{i}", [pattern])
+    
+    matches = matcher(doc)
+    
+    # Sprawdzenie, czy pytanie kończy się wykrzyknikiem
+    if text.strip().endswith('?!'):
+        return True
+    
+    # Sprawdzenie, czy pytanie zawiera charakterystyczne zwroty
+    if matches:
+        return True
+    
+    return False
+
 def extract_questions(text):
     doc = nlp(text)
     matcher = Matcher(nlp.vocab)
@@ -26,22 +52,22 @@ def extract_questions(text):
     for sent in doc.sents:
         sent_text = sent.text.strip()
         
-        # Sprawdzenie, czy zdanie kończy się znakiem zapytania
-        if sent_text.endswith('?'):
+        # Sprawdzenie, czy zdanie kończy się znakiem zapytania i nie jest retoryczne
+        if sent_text.endswith('?') and not is_rhetorical_question(sent_text):
             questions.append(sent_text)
         
-        # Sprawdzenie, czy zdanie zaczyna się od słowa pytającego
-        elif matcher(sent.as_doc()):
+        # Sprawdzenie, czy zdanie zaczyna się od słowa pytającego i nie jest retoryczne
+        elif matcher(sent.as_doc()) and not is_rhetorical_question(sent_text):
             questions.append(sent_text)
         
-        # Sprawdzenie, czy zdanie zawiera słowo "question"
-        elif "question" in sent_text.lower():
+        # Sprawdzenie, czy zdanie zawiera słowo "question" i nie jest retoryczne
+        elif "question" in sent_text.lower() and not is_rhetorical_question(sent_text):
             questions.append(sent_text)
         
-        # Sprawdzenie struktury zdania dla pytań bez znaku zapytania
+        # Sprawdzenie struktury zdania dla pytań bez znaku zapytania i nie jest retoryczne
         else:
             for token in sent:
-                if token.dep_ == "aux" and token.i == 0:
+                if token.dep_ == "aux" and token.i == 0 and not is_rhetorical_question(sent_text):
                     questions.append(sent_text)
                     break
     
@@ -54,13 +80,3 @@ async def classify_text(input: TextInput):
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8111)
-
-
-
-import spacy
-
-
-nlp = spacy.load("en_core_web_sm")
-
-
-    
