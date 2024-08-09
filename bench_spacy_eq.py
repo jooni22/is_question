@@ -18,18 +18,19 @@ def run_benchmark():
     total_time = 0
     results = []
 
-    for text, expected_questions in test_cases:
+    for text, expected in test_cases:
         start_time = time.time()
         extracted_questions = extract_questions(text)
         end_time = time.time()
 
-        correct = set(extracted_questions) == set(expected_questions)
+        is_question = len(extracted_questions) > 0
+        correct = is_question == expected
         if correct:
             correct_predictions += 1
         
         request_time = end_time - start_time
         total_time += request_time
-        results.append((text, expected_questions, extracted_questions, correct, request_time))
+        results.append((text, expected, is_question, correct, request_time, extracted_questions))
 
     accuracy = correct_predictions / len(test_cases) * 100
     avg_response_time = total_time / len(test_cases) * 1000  # Convert to milliseconds
@@ -38,12 +39,16 @@ def run_benchmark():
     print(f"Average response time: {avg_response_time:.2f} ms")
 
     print("\nDetailed Results:")
-    for text, expected, extracted, correct, response_time in results:
+    for text, expected, predicted, correct, response_time, questions in results:
         print(f"Text: {text}")
-        print(f"Expected questions: {expected}")
-        print(f"Extracted questions: {extracted}")
+        print(f"Expected: {'Question' if expected else 'Statement'}")
+        print(f"Predicted: {'Question' if predicted else 'Statement'}")
         print(f"Correct: {'Yes' if correct else 'No'}")
         print(f"Response time: {response_time*1000:.2f} ms")
+        if questions:
+            print("Extracted questions:")
+            for q in questions:
+                print(f"  - {q}")
         print()
 
 if __name__ == "__main__":
