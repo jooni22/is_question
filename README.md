@@ -1,76 +1,140 @@
-# is_question
+# Question Detection and Extraction Benchmark
 
-To repozytorium zawiera testy różnych modeli sprawdzających, czy dane zdanie jest pytaniem.
+This project benchmarks different approaches to question detection and extraction using various models and techniques.
 
-## Opis
+## Components
 
-Projekt ten porównuje skuteczność i wydajność różnych modeli językowych w zadaniu klasyfikacji zdań jako pytania lub stwierdzenia. Wykorzystujemy trzy różne podejścia:
+1. HuggingFace model for question detection
+2. Ollama model for question detection
+3. Groq model for question detection
+4. spaCy model for question extraction
 
-1. Model lokalny Ollama
-2. Model Hugging Face
-3. Model Groq (API)
+## Setup
 
-## Wyniki
+1. Install dependencies:
 
-Poniżej przedstawiamy wyniki testów dla każdego z modeli:
+```
+pip install fastapi uvicorn transformers torch spacy requests
+python -m spacy download en_core_web_sm
+```
 
-### Ollama
+2. Download and install Ollama from https://ollama.ai/
 
-- Dokładność: 95.24%
-- Średni czas odpowiedzi: 78.45 ms
+3. Set up environment variables:
+   - Set `GROQ_API_KEY` for the Groq API
 
-### Hugging Face
+## Running the Benchmarks
 
-- Dokładność: 97.62%
-- Średni czas odpowiedzi: 12.34 ms
+### HuggingFace Model
 
-### Groq
+1. Start the HuggingFace model server:
 
-- Dokładność: 98.81%
-- Średni czas odpowiedzi: 456.78 ms
+```
+python is_question/hf_model_host.py
+```
 
-## Jak uruchomić
+2. Run the benchmark:
 
-Aby uruchomić testy, wykonaj następujące kroki:
+```
+python is_question/bench_hf.py
+```
 
-1. Sklonuj repozytorium:
-   ```
-   git clone https://github.com/twój_użytkownik/is_question.git
-   cd is_question
-   ```
+### Ollama Model
 
-2. Zainstaluj wymagane zależności:
-   ```
-   pip install -r requirements.txt
-   ```
+1. Pull the Gemma model:
 
-3. Skonfiguruj środowisko:
-   - Dla Ollama: Upewnij się, że Ollama jest zainstalowana i uruchomiona lokalnie.
-   - Dla Groq: Ustaw zmienną środowiskową `GROQ_API_KEY` z Twoim kluczem API.
-   - Dla Hugging Face: Uruchom serwer lokalny zgodnie z instrukcjami w pliku `hf_server.py`.
+```
+ollama pull gemma2:2b
+```
 
-4. Uruchom testy:
-   ```
-   python bench_llm_ollama.py
-   python bench_hf.py
-   python bench_llm_groq.py
-   ```
+2. Run the benchmark:
 
-## Ważne kwestie
+```
+python is_question/bench_llm_ollama.py
+```
 
-- Upewnij się, że masz stabilne połączenie internetowe podczas testowania modeli API (Groq).
-- Wyniki mogą się nieznacznie różnić w zależności od wersji modeli i obciążenia serwerów.
-- Pamiętaj o przestrzeganiu limitów API dla modelu Groq.
-- Testy wykorzystują zestaw przypadków testowych zdefiniowanych w pliku `test_cases.py`.
+### Groq Model
 
-## Struktura projektu
+Run the benchmark:
 
-- `bench_llm_ollama.py`: Skrypt do testowania modelu Ollama
-- `bench_hf.py`: Skrypt do testowania modelu Hugging Face
-- `bench_llm_groq.py`: Skrypt do testowania modelu Groq
-- `test_cases.py`: Zestaw przypadków testowych
-- `hf_server.py`: Serwer lokalny dla modelu Hugging Face
+```
+python is_question/bench_llm_groq.py
+```
 
-## Kontakt
+### spaCy Model for Question Extraction
 
-W przypadku pytań lub problemów, proszę utworzyć issue w tym repozytorium.
+1. Start the spaCy model server:
+
+```
+python extract_question/spacy_model_host.py
+```
+
+2. Run the benchmark:
+
+```
+python extract_question/bench_spacy_eq.py
+```
+
+## Understanding the Scripts
+
+### Question Detection Scripts
+
+- `is_question/hf_model_host.py`: 
+  - Loads a pre-trained HuggingFace model for question detection
+  - Sets up a FastAPI server to host the model
+  - Defines an endpoint that accepts text input and returns a prediction
+
+- `is_question/bench_hf.py`:
+  - Loads test cases from `test_cases_iq.py`
+  - Sends each test case to the HuggingFace model server
+  - Measures accuracy and response time
+  - Outputs detailed results and overall performance metrics
+
+- `is_question/bench_llm_ollama.py`:
+  - Uses the Ollama CLI to interact with the Gemma model
+  - Processes each test case from `test_cases_iq.py`
+  - Measures accuracy and response time
+  - Outputs detailed results and overall performance metrics
+
+- `is_question/bench_llm_groq.py`:
+  - Uses the Groq API to process test cases
+  - Loads test cases from `test_cases_iq.py`
+  - Measures accuracy and response time
+  - Outputs detailed results and overall performance metrics
+
+### Question Extraction Scripts
+
+- `extract_question/spacy_model_host.py`:
+  - Loads the spaCy English language model
+  - Sets up a FastAPI server to host the model
+  - Defines an endpoint that accepts text input and extracts questions
+
+- `extract_question/bench_spacy_eq.py`:
+  - Loads test cases from `test_cases_eq.py`
+  - Sends each test case to the spaCy model server
+  - Measures accuracy and response time for question extraction
+  - Outputs detailed results and overall performance metrics
+
+## Test Cases
+
+- `is_question/test_cases_iq.py`: Contains test cases for question detection
+  - Each test case includes input text and expected output (is it a question or not)
+
+- `extract_question/test_cases_eq.py`: Contains test cases for question extraction
+  - Each test case includes input text and expected extracted questions
+
+You can modify these files to add or change test cases.
+
+## Results
+
+Each benchmark script will output:
+- Overall accuracy
+- Average response time
+- Detailed results for each test case
+
+Compare these results to evaluate the performance of different approaches to question detection and extraction.
+
+## Customization
+
+- To use different models or datasets, modify the respective script and test case files.
+- Adjust hyperparameters or prompts in the benchmark scripts to optimize performance.
