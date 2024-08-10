@@ -5,40 +5,19 @@ from spacy.matcher import Matcher, PhraseMatcher
 from spacy.tokens import Span
 import re
 import uvicorn
+import time
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+import os
+import sys
 
 # Załadowanie modelu spaCy
 nlp = spacy.load("en_core_web_sm")
-
+#en_core_web_lg
 app = FastAPI()
 
 class TextInput(BaseModel):
     text: str
-
-def is_rhetorical_question(text):
-    doc = nlp(text)
-    
-    # Przykładowe reguły heurystyczne
-    rhetorical_patterns = [
-        [{"LOWER": "isn't"}, {"LOWER": "it"}, {"LOWER": "obvious"}],
-        [{"LOWER": "who"}, {"LOWER": "would"}, {"LOWER": "have"}, {"LOWER": "thought"}],
-        [{"LOWER": "do"}, {"LOWER": "i"}, {"LOWER": "really"}, {"LOWER": "need"}, {"LOWER": "to"}, {"LOWER": "explain"}],
-    ]
-    
-    matcher = Matcher(nlp.vocab)
-    for i, pattern in enumerate(rhetorical_patterns):
-        matcher.add(f"RHETORICAL_{i}", [pattern])
-    
-    matches = matcher(doc)
-    
-    # Sprawdzenie, czy pytanie kończy się wykrzyknikiem
-    if text.strip().endswith('?!'):
-        return True
-    
-    # Sprawdzenie, czy pytanie zawiera charakterystyczne zwroty
-    if matches:
-        return True
-    
-    return False
 
 def extract_questions(text):
     doc = nlp(text)
@@ -111,5 +90,23 @@ async def classify_text(input: TextInput):
     questions = extract_questions(input.text)
     return {"questions": questions}
 
+class FileChangeHandler(FileSystemEventHandler):
+    def on_modified(self, event):
+        if event.src_path.endswith('spacy_model_host.py'):
+            print("Wykryto zmianę w pliku. Restartowanie serwera...")
+            os.execv(sys.executable, ['python'] + sys.argv)
+
+def run_server_with_auto_reload():
+    observer = Observer()
+    handler = FileChangeHandler()
+    observer.schedule(handler, path='.', recursive=False)
+    observer.start()
+
+    try:
+        uvicorn.run(app, host="0.0.0.0", port=8111)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
+
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8111)
+    run_server_with_auto_reload()
