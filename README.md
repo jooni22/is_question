@@ -11,17 +11,39 @@ This project benchmarks different approaches to question detection and extractio
 
 ## Setup
 
-1. Install dependencies:
+### 1. Create and activate a virtual environment
 
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS and Linux:
+source venv/bin/activate
 ```
-pip install fastapi uvicorn transformers torch spacy requests
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Install spaCy models
+
+```bash
 python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_lg
 ```
 
-2. Download and install Ollama from https://ollama.ai/
+### 4. Download and install Ollama
 
-3. Set up environment variables:
-   - Set `GROQ_API_KEY` for the Groq API
+Download and install Ollama from https://ollama.ai/
+
+### 5. Set up environment variables
+
+Set `GROQ_API_KEY` for the Groq API
 
 ## Running the Benchmarks
 

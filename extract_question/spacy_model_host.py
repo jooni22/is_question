@@ -12,8 +12,9 @@ import os
 import sys
 
 # Załadowanie modelu spaCy
-nlp = spacy.load("en_core_web_sm")
-#en_core_web_lg
+#nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_lg")
+
 app = FastAPI()
 
 class TextInput(BaseModel):
