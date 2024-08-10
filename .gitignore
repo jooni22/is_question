@@ -2,11 +2,68 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+/TEST
 # Wirtualne środowiska
 venv/
 env/
 .env
+# Dane z uczenia maszynowego
+*.pkl
+*.h5
+*.model
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.mlmodel
+
+# Duże pliki
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.dmg
+*.bin
+*.exe
+*.msi
+
+# Katalogi z danymi
+data/
+datasets/
+corpus/
+embeddings/
+
+# Pliki checkpointów
+checkpoint*/
+fine_tuned_model*/
+*.ckpt
+*.safetensors
+# Pliki tensorboard
+events.out.tfevents.*
+
+# Duże pliki CSV i JSON
+*.csv
+*.json
+
+# Pliki audio i wideo
+*.mp3
+*.wav
+*.mp4
+*.avi
+*.mov
+
+# Pliki obrazów
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.tif
+*.tiff
+
+# Komentarz: Dodano ignorowanie plików związanych z uczeniem maszynowym i dużych plików
 
 # Pliki IDE
 .vscode/

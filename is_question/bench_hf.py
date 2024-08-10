@@ -1,7 +1,7 @@
 import requests
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from test_cases_iq import test_cases
+from is_question.test_cases_iq import test_cases
 
 API_URL = "http://localhost:8000/classify"
 

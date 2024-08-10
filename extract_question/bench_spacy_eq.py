@@ -1,17 +1,6 @@
-import spacy
 import time
+import requests
 from test_cases_eq import test_cases
-
-# Załadowanie modelu spaCy
-nlp = spacy.load("en_core_web_sm")
-
-def extract_questions(text):
-    doc = nlp(text)
-    questions = []
-    for sent in doc.sents:
-        if sent.text.strip().endswith('?'):
-            questions.append(sent.text.strip())
-    return questions
 
 def run_benchmark():
     correct_predictions = 0
@@ -20,11 +9,15 @@ def run_benchmark():
 
     for text, expected in test_cases:
         start_time = time.time()
-        extracted_questions = extract_questions(text)
+        
+        # Wysłanie zapytania do API
+        response = requests.post("http://localhost:8111/classify", json={"text": text})
+        extracted_questions = response.json()["questions"]
+        
         end_time = time.time()
 
         is_question = len(extracted_questions) > 0
-        correct = is_question == expected
+        correct = is_question == (len(expected) > 0)
         if correct:
             correct_predictions += 1
         
@@ -41,14 +34,10 @@ def run_benchmark():
     print("\nDetailed Results:")
     for text, expected, predicted, correct, response_time, questions in results:
         print(f"Text: {text}")
-        print(f"Expected: {'Question' if expected else 'Statement'}")
-        print(f"Predicted: {'Question' if predicted else 'Statement'}")
+        print(f"Expected: {expected}")
+        print(f"Predicted: {questions}")
         print(f"Correct: {'Yes' if correct else 'No'}")
         print(f"Response time: {response_time*1000:.2f} ms")
-        if questions:
-            print("Extracted questions:")
-            for q in questions:
-                print(f"  - {q}")
         print()
 
 if __name__ == "__main__":

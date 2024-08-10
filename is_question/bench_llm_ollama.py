@@ -3,7 +3,7 @@ import time
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
-from test_cases_iq import test_cases
+from is_question.test_cases_iq import test_cases
 
 API_URL = "http://localhost:11434/api/chat"
 
