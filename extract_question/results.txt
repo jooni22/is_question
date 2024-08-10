@@ -1,0 +1,592 @@
+Accuracy: 94.05%
+Average response time: 22.81 ms
+
+Detailed Results:
+Text: Is this a question?
+Expected: ['Is this a question?']
+Predicted questions: ['Is this a question?']
+Scores: [6]
+Correct: Yes
+Response time: 19.06 ms
+
+Text: This is a statement.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 17.75 ms
+
+Text: This is a not statement.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 17.57 ms
+
+Text: What time is it?
+Expected: ['What time is it?']
+Predicted questions: ['What time is it?']
+Scores: [9]
+Correct: Yes
+Response time: 17.78 ms
+
+Text: I'm not sure if this is a question.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 18.71 ms
+
+Text: Can you help me?
+Expected: ['Can you help me?']
+Predicted questions: ['Can you help me?']
+Scores: [9]
+Correct: Yes
+Response time: 17.29 ms
+
+Text: The sky is blue.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 16.93 ms
+
+Text: How does this work?
+Expected: ['How does this work?']
+Predicted questions: ['How does this work?']
+Scores: [9]
+Correct: Yes
+Response time: 17.90 ms
+
+Text: It's raining outside.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 17.29 ms
+
+Text: Do you know the way to San Jose?
+Expected: ['Do you know the way to San Jose?']
+Predicted questions: ['Do you know the way to San Jose?']
+Scores: [9]
+Correct: Yes
+Response time: 18.61 ms
+
+Text: I like ice cream.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 17.28 ms
+
+Text: Why is the sky blue?
+Expected: ['Why is the sky blue?']
+Predicted questions: ['Why is the sky blue?']
+Scores: [9]
+Correct: Yes
+Response time: 17.74 ms
+
+Text: Life is what happens when you're busy making other plans.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 18.83 ms
+
+Text: Have you ever seen the rain?
+Expected: ['Have you ever seen the rain?']
+Predicted questions: ['Have you ever seen the rain?']
+Scores: [9]
+Correct: Yes
+Response time: 17.59 ms
+
+Text: To be or not to be, that is the question.
+Expected: ['To be or not to be, that is the question.']
+Predicted questions: ['To be or not to be, that is the question.']
+Scores: [3]
+Correct: Yes
+Response time: 18.99 ms
+
+Text: I wonder if this is a question.
+Expected: ['I wonder if this is a question.']
+Predicted questions: ['I wonder if this is a question.']
+Scores: [6]
+Correct: Yes
+Response time: 17.94 ms
+
+Text: Could you please pass the salt?
+Expected: ['Could you please pass the salt?']
+Predicted questions: ['Could you please pass the salt?']
+Scores: [11]
+Correct: Yes
+Response time: 17.88 ms
+
+Text: The early bird catches the worm.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 17.85 ms
+
+Text: Who let the dogs out?
+Expected: ['Who let the dogs out?']
+Predicted questions: ['Who let the dogs out?']
+Scores: [9]
+Correct: Yes
+Response time: 17.49 ms
+
+Text: Actions speak louder than words.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 17.37 ms
+
+Text: Isn't it a beautiful day?
+Expected: ["Isn't it a beautiful day?"]
+Predicted questions: ["Isn't it a beautiful day?"]
+Scores: [6]
+Correct: Yes
+Response time: 17.46 ms
+
+Text: That's a rhetorical question, isn't it?
+Expected: ["That's a rhetorical question, isn't it?"]
+Predicted questions: ["That's a rhetorical question, isn't it?"]
+Scores: [5]
+Correct: Yes
+Response time: 18.16 ms
+
+Text: She asked if I could come to the party.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 18.48 ms
+
+Text: How about we go for a walk?
+Expected: ['How about we go for a walk?']
+Predicted questions: ['How about we go for a walk?']
+Scores: [9]
+Correct: Yes
+Response time: 17.80 ms
+
+Text: I'd like to know more about this topic.
+Expected: ["I'd like to know more about this topic."]
+Predicted questions: []
+Scores: []
+Correct: No
+Response time: 18.59 ms
+
+Text: What if I told you the Earth was flat?
+Expected: ['What if I told you the Earth was flat?']
+Predicted questions: ['What if I told you the Earth was flat?']
+Scores: [9]
+Correct: Yes
+Response time: 18.61 ms
+
+Text: It's not rocket science.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 17.39 ms
+
+Text: Are we there yet?
+Expected: ['Are we there yet?']
+Predicted questions: ['Are we there yet?']
+Scores: [6]
+Correct: Yes
+Response time: 19.00 ms
+
+Text: The question is, will it work?
+Expected: ['The question is, will it work?']
+Predicted questions: ['The question is, will it work?']
+Scores: [5]
+Correct: Yes
+Response time: 17.95 ms
+
+Text: I'm telling you, not asking.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 18.13 ms
+
+Text: You call that a question?
+Expected: ['You call that a question?']
+Predicted questions: ['You call that a question?']
+Scores: [5]
+Correct: Yes
+Response time: 20.11 ms
+
+Text: This statement ends with a question mark?
+Expected: ['This statement ends with a question mark?']
+Predicted questions: ['This statement ends with a question mark?']
+Scores: [5]
+Correct: Yes
+Response time: 20.41 ms
+
+Text: Just because it ends with a period doesn't mean it's not a question.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 23.69 ms
+
+Text: Why bother?
+Expected: ['Why bother?']
+Predicted questions: ['Why bother?']
+Scores: [9]
+Correct: Yes
+Response time: 20.91 ms
+
+Text: I'm Ron Burgundy?
+Expected: ["I'm Ron Burgundy?"]
+Predicted questions: ["I'm Ron Burgundy?"]
+Scores: [5]
+Correct: Yes
+Response time: 20.97 ms
+
+Text: Do fish sleep?
+Expected: ['Do fish sleep?']
+Predicted questions: ['Do fish sleep?']
+Scores: [9]
+Correct: Yes
+Response time: 17.60 ms
+
+Text: The answer, my friend, is blowin' in the wind.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 19.31 ms
+
+Text: How much wood would a woodchuck chuck if a woodchuck could chuck wood?
+Expected: ['How much wood would a woodchuck chuck if a woodchuck could chuck wood?']
+Predicted questions: ['How much wood would a woodchuck chuck if a woodchuck could chuck wood?']
+Scores: [9]
+Correct: Yes
+Response time: 23.67 ms
+
+Text: I have a dream.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 20.19 ms
+
+Text: Et tu, Brute?
+Expected: ['Et tu, Brute?']
+Predicted questions: ['Et tu, Brute?']
+Scores: [5]
+Correct: Yes
+Response time: 22.24 ms
+
+Text: This is not a pipe.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 22.94 ms
+
+Text: Hi, how are you? I hope everything's okay with you. I heard you were on vacation recently. Where exactly did you go? It must have been great! And what did you enjoy most about the trip?
+Expected: ['Hi, how are you?', 'Where exactly did you go?', 'And what did you enjoy most about the trip?']
+Predicted questions: ['Where exactly did you go?', 'Hi, how are you?', 'And what did you enjoy most about the trip?']
+Scores: [9, 5, 5]
+Correct: Yes
+Response time: 32.74 ms
+
+Text: The weather has been quite unpredictable lately. One day it's sunny, the next it's raining. Do you think climate change is affecting our local weather patterns?
+Expected: ['Do you think climate change is affecting our local weather patterns?']
+Predicted questions: ['Do you think climate change is affecting our local weather patterns?']
+Scores: [6]
+Correct: Yes
+Response time: 26.84 ms
+
+Text: I've been thinking about changing careers. It's not an easy decision to make. Have you ever considered a major life change like that?
+Expected: ['Have you ever considered a major life change like that?']
+Predicted questions: ['Have you ever considered a major life change like that?']
+Scores: [6]
+Correct: Yes
+Response time: 28.37 ms
+
+Text: The new restaurant downtown is getting rave reviews. I heard their chef trained in Paris. We should try it sometime, don't you think?
+Expected: ["We should try it sometime, don't you think?"]
+Predicted questions: ["We should try it sometime, don't you think?"]
+Scores: [5]
+Correct: Yes
+Response time: 29.45 ms
+
+Text: Life is full of surprises. Sometimes good, sometimes bad. But isn't that what makes it interesting?
+Expected: ["But isn't that what makes it interesting?"]
+Predicted questions: ["But isn't that what makes it interesting?"]
+Scores: [5]
+Correct: Yes
+Response time: 22.52 ms
+
+Text: I'm working on a new project at work. It's challenging but rewarding. I'm learning a lot of new skills in the process.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 25.28 ms
+
+Text: The book you recommended was fantastic. I couldn't put it down. The author's writing style was so engaging.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 23.90 ms
+
+Text: Can you believe how fast technology is advancing? It seems like there's a new gadget every week. What do you think the next big innovation will be?
+Expected: ['Can you believe how fast technology is advancing?', 'What do you think the next big innovation will be?']
+Predicted questions: ['Can you believe how fast technology is advancing?', 'What do you think the next big innovation will be?']
+Scores: [9, 9]
+Correct: Yes
+Response time: 25.34 ms
+
+Text: I've been trying to eat healthier lately. It's not easy with all the temptations around. Do you have any tips for sticking to a healthy diet?
+Expected: ['Do you have any tips for sticking to a healthy diet?']
+Predicted questions: ['Do you have any tips for sticking to a healthy diet?']
+Scores: [6]
+Correct: Yes
+Response time: 24.63 ms
+
+Text: The concert last night was amazing. The band played all their hits. The crowd was so energetic. I'm still buzzing from the experience.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 24.76 ms
+
+Text: Have you heard about the new environmental initiative in our city? They're planting trees all over. It's supposed to help reduce carbon emissions. What are your thoughts on this approach?
+Expected: ['What are your thoughts on this approach?', 'Have you heard about the new environmental initiative in our city?']
+Predicted questions: ['What are your thoughts on this approach?', 'Have you heard about the new environmental initiative in our city?']
+Scores: [11, 9]
+Correct: Yes
+Response time: 26.41 ms
+
+Text: I'm planning a surprise party for my best friend. It's been quite stressful keeping it a secret. Do you think she'll like it? I hope everything goes smoothly.
+Expected: ["Do you think she'll like it?"]
+Predicted questions: ["Do you think she'll like it?"]
+Scores: [6]
+Correct: Yes
+Response time: 29.31 ms
+
+Text: The history of our town is fascinating. Did you know it was founded over 200 years ago? There are so many interesting stories from the past.
+Expected: ['Did you know it was founded over 200 years ago?']
+Predicted questions: ['Did you know it was founded over 200 years ago?']
+Scores: [6]
+Correct: Yes
+Response time: 25.43 ms
+
+Text: I've been learning a new language online. It's challenging but fun. They say immersion is the best way to learn. Maybe I should plan a trip to practice?
+Expected: ['Maybe I should plan a trip to practice?']
+Predicted questions: ['Maybe I should plan a trip to practice?']
+Scores: [5]
+Correct: Yes
+Response time: 28.41 ms
+
+Text: The new art exhibition at the museum is thought-provoking. It challenges our perceptions of reality. The artist uses unconventional materials to create stunning pieces.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 27.80 ms
+
+Text: Why do we drive on parkways and park on driveways? Isn't language funny sometimes? These are the kinds of questions that keep me up at night.
+Expected: ['Why do we drive on parkways and park on driveways?', "Isn't language funny sometimes?"]
+Predicted questions: ['Why do we drive on parkways and park on driveways?', "Isn't language funny sometimes?"]
+Scores: [9, 6]
+Correct: Yes
+Response time: 27.74 ms
+
+Text: I'm considering adopting a pet. It's a big responsibility. Do you have any experience with pets? What kind would you recommend for a first-time owner?
+Expected: ['What kind would you recommend for a first-time owner?', 'Do you have any experience with pets?']
+Predicted questions: ['What kind would you recommend for a first-time owner?', 'Do you have any experience with pets?']
+Scores: [9, 6]
+Correct: Yes
+Response time: 28.79 ms
+
+Text: The documentary about space exploration was mind-blowing. It showed how far we've come in understanding the universe. Yet there's still so much we don't know.
+Expected: []
+Predicted questions: []
+Scores: []
+Correct: Yes
+Response time: 27.13 ms
+
+Text: Have you ever wondered why the sky is blue? Or why we dream? These fundamental questions about our world are still being researched by scientists.
+Expected: ['Have you ever wondered why the sky is blue?', 'Or why we dream?']
+Predicted questions: ['Have you ever wondered why the sky is blue?', 'Or why we dream?']
+Scores: [9, 5]
+Correct: Yes
+Response time: 24.40 ms
+
+Text: The new coffee shop on the corner makes the best lattes. Their pastries are delicious too. We should meet there for our next catch-up.
+Expected: ['We should meet there for our next catch-up.']
+Predicted questions: []
+Scores: []
+Correct: No
+Response time: 23.50 ms
+
+Text: Yeah. Of course. And you some I think so. Just to make you a bit louder. Test. Test. Test. Okay. So may maybe I will try to increase the volume. Okay? No. It's fine, actually. It's fine, actually. I think it does a different Yes. So pleasure to see you, and welcome. I'm happy we managed to still do this interview even though some force majeure happened, as I understand. For you. But, like, hopefully, your son's okay. So, my name is Luma. I am from HR at Smart Security, and we have Christopher's with us. He is IT guy from the team for which we look people. So, basically, we both joined today just to tell you more about us, about the position which we have, open. And, of course, we will have questions for you, about you, and, you know, your your vision for your future. So we have 1 hour booked and, and, we will be making notes, so don't mind us typing, please. Just we want to remember facts about you. And, feel free just to ask whenever you have questions because it's not only us choosing, but you as well. You need to figure out if you want to do things we do. So, Martin, I have a little question before we start. Because well, basically, I understand that you applied to this position. So, you probably are looking for the opportunities And my question for you is why? What's happening in your life that you decided to, you know, to look for new opportunities? What's your motivation?
+Expected: ["What's happening in your life that you decided to, you know, to look for new opportunities?", "What's your motivation?", 'Okay?', 'So, you probably are looking for the opportunities And my question for you is why?', 'So, basically, we both joined today just to tell you more about us, about the position which we have, open.']
+Predicted questions: ["What's happening in your life that you decided to, you know, to look for new opportunities?", "What's your motivation?", 'Okay?', 'So, you probably are looking for the opportunities And my question for you is why?', 'So, basically, we both joined today just to tell you more about us, about the position which we have, open.']
+Scores: [9, 9, 5, 5, 4]
+Correct: Yes
+Response time: 124.63 ms
+
+Text: Tell me if it is possible to ask a question without a question mark!
+Expected: ['Tell me if it is possible to ask a question without a question mark!']
+Predicted questions: ['Tell me if it is possible to ask a question without a question mark!']
+Scores: [11]
+Correct: Yes
+Response time: 24.11 ms
+
+Text: I wonder if it is possible to ask a question without using a question mark.
+Expected: ['I wonder if it is possible to ask a question without using a question mark.']
+Predicted questions: ['I wonder if it is possible to ask a question without using a question mark.']
+Scores: [6]
+Correct: Yes
+Response time: 24.24 ms
+
+Text: Tell me what you think about climate change
+Expected: ['Tell me what you think about climate change']
+Predicted questions: ['Tell me what you think about climate change']
+Scores: [11]
+Correct: Yes
+Response time: 19.54 ms
+
+Text: I wonder how long it takes to learn a new language
+Expected: ['I wonder how long it takes to learn a new language']
+Predicted questions: ['I wonder how long it takes to learn a new language']
+Scores: [6]
+Correct: Yes
+Response time: 19.43 ms
+
+Text: Let me know where you'd like to meet
+Expected: ["Let me know where you'd like to meet"]
+Predicted questions: ["Let me know where you'd like to meet"]
+Scores: [9]
+Correct: Yes
+Response time: 18.97 ms
+
+Text: Explain why the sky appears blue
+Expected: ['Explain why the sky appears blue']
+Predicted questions: ['Explain why the sky appears blue']
+Scores: [9]
+Correct: Yes
+Response time: 17.91 ms
+
+Text: Describe your ideal vacation destination
+Expected: ['Describe your ideal vacation destination']
+Predicted questions: ['Describe your ideal vacation destination']
+Scores: [9]
+Correct: Yes
+Response time: 19.74 ms
+
+Text: I'd like to know your opinion on remote work
+Expected: ["I'd like to know your opinion on remote work"]
+Predicted questions: []
+Scores: []
+Correct: No
+Response time: 23.13 ms
+
+Text: Share your thoughts on the future of artificial intelligence
+Expected: ['Share your thoughts on the future of artificial intelligence']
+Predicted questions: ['Share your thoughts on the future of artificial intelligence']
+Scores: [11]
+Correct: Yes
+Response time: 23.11 ms
+
+Text: Tell me about your favorite childhood memory
+Expected: ['Tell me about your favorite childhood memory']
+Predicted questions: ['Tell me about your favorite childhood memory']
+Scores: [11]
+Correct: Yes
+Response time: 18.59 ms
+
+Text: I'm curious about your approach to problem-solving
+Expected: ["I'm curious about your approach to problem-solving"]
+Predicted questions: ["I'm curious about your approach to problem-solving"]
+Scores: [6]
+Correct: Yes
+Response time: 22.14 ms
+
+Text: Elaborate on the importance of biodiversity
+Expected: ['Elaborate on the importance of biodiversity']
+Predicted questions: ['Elaborate on the importance of biodiversity']
+Scores: [11]
+Correct: Yes
+Response time: 17.77 ms
+
+Text: I was wondering if you could explain the theory of relativity.
+Expected: ['I was wondering if you could explain the theory of relativity.']
+Predicted questions: ['I was wondering if you could explain the theory of relativity.']
+Scores: [4]
+Correct: Yes
+Response time: 21.01 ms
+
+Text: Would you mind sharing your thoughts on the current economic situation?
+Expected: ['Would you mind sharing your thoughts on the current economic situation?']
+Predicted questions: ['Would you mind sharing your thoughts on the current economic situation?']
+Scores: [9]
+Correct: Yes
+Response time: 23.99 ms
+
+Text: Do you happen to know when the next train arrives?
+Expected: ['Do you happen to know when the next train arrives?']
+Predicted questions: ['Do you happen to know when the next train arrives?']
+Scores: [11]
+Correct: Yes
+Response time: 24.79 ms
+
+Text: I'm not sure if you're aware of any good restaurants in the area.
+Expected: ["I'm not sure if you're aware of any good restaurants in the area."]
+Predicted questions: []
+Scores: []
+Correct: No
+Response time: 25.65 ms
+
+Text: Could you possibly tell me how to get to the nearest post office?
+Expected: ['Could you possibly tell me how to get to the nearest post office?']
+Predicted questions: ['Could you possibly tell me how to get to the nearest post office?']
+Scores: [15]
+Correct: Yes
+Response time: 25.29 ms
+
+Text: I was hoping you might be able to clarify the company's new policy.
+Expected: ["I was hoping you might be able to clarify the company's new policy."]
+Predicted questions: []
+Scores: []
+Correct: No
+Response time: 25.00 ms
+
+Text: I'm curious as to whether you've ever visited South America.
+Expected: ["I'm curious as to whether you've ever visited South America."]
+Predicted questions: ["I'm curious as to whether you've ever visited South America."]
+Scores: [4]
+Correct: Yes
+Response time: 24.90 ms
+
+Text: Have you any idea why the project deadline was extended?
+Expected: ['Have you any idea why the project deadline was extended?']
+Predicted questions: ['Have you any idea why the project deadline was extended?']
+Scores: [13]
+Correct: Yes
+Response time: 23.54 ms
+
+Text: Might I inquire about your experience with coding languages?
+Expected: ['Might I inquire about your experience with coding languages?']
+Predicted questions: ['Might I inquire about your experience with coding languages?']
+Scores: [9]
+Correct: Yes
+Response time: 23.58 ms
+
+Text: I'd be interested to know your perspective on renewable energy sources.
+Expected: ["I'd be interested to know your perspective on renewable energy sources."]
+Predicted questions: ["I'd be interested to know your perspective on renewable energy sources."]
+Scores: [6]
+Correct: Yes
+Response time: 20.46 ms
+
