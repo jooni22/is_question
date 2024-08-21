@@ -1,0 +1,19 @@
+Dokładność: 0.8678
+Precyzja: 0.8640
+Czułość: 0.8678
+F1-score: 0.8650
+
+Raport klasyfikacji:
+                                precision    recall  f1-score   support
+
+                      fragment       0.95      0.92      0.93       600
+                     statement       0.84      0.87      0.86      1830
+                      question       0.92      0.94      0.93      1786
+                       command       0.88      0.89      0.88      1296
+           rhetorical question       0.66      0.49      0.57       174
+            rhetorical command       0.69      0.73      0.71       108
+intonation-dependent utterance       0.63      0.50      0.56       327
+
+                      accuracy                           0.87      6121
+                     macro avg       0.80      0.76      0.78      6121
+                  weighted avg       0.86      0.87      0.86      6121

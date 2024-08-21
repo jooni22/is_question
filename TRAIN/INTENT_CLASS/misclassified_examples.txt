@@ -1,0 +1,3238 @@
+
+Przykłady błędnie sklasyfikowane:
+Tekst: That's it
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: It's embarrassing
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: No way
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: What are you doing?
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Have a drink
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: rhetorical command
+---
+Tekst: yes you bitch
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: Are you talking?
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Maybe me
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: rhetorical command
+---
+Tekst: It's a slash
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: seven o'clock
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: command
+---
+Tekst: Tsk again
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: command
+---
+Tekst: I'm so stubborn
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: I remember
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Are you going to buy alcohol?
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: question
+---
+Tekst: I'm doing it
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I'm sorry
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: I come and go too
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: I'm ruined because of this
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: Soybean paste, a fermented food
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: okay
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: Hey hey hey
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: rhetorical command
+---
+Tekst: I'll take it
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: I don't know if it will work
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: Only you stop and everything passes
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: command
+---
+Tekst: Every day, for the rest of my life
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: rhetorical command
+---
+Tekst: I'm drunk
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I want to transfer schools
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: No matter how much you know
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: rhetorical question
+---
+Tekst: If you are a martial artist,
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: question
+---
+Tekst: I will take care of it then
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: I fainted at that time
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: That's right
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: Protecting the court lady
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: It's obvious
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: I'm embarrassed
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: They say it's ordinary
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: I decided
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: okay
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: You can't believe it
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: This time the customer
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: to be rescued
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: I didn't know
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: okay
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: Thank you for delivering the letter
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: what day
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: question
+---
+Tekst: I'm a prisoner
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Outside of banking hours
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: Goodbye
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: rhetorical command
+---
+Tekst: I'm so busy
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: statement
+---
+Tekst: Calm down
+Prawdziwa etykieta: fragment
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Korean film won Best Picture at Overseas Film Festival
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I don't have the rank
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: There will be outdoor shooting tomorrow.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I study much better when it rains
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I can't attend tomorrow. I'm sorry. I'll see you next time.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: You have to buy a ticket to enter the station to see them off.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I'm having a calligraphy exhibition, and tomorrow is the last day.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: What is it, I told you not to take the Chil Line?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Share once and close after one month
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Students who want to learn should not be ashamed
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Your mind must be complicated right now
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: It is easy to lose money when investing in stocks.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I'm in the car
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Don't worry about her now
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Whether you called or sent an email
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I went to give you a gift
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: The hot weather will continue for a few more days.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Whether you play Animal Crossing or not, check it out, it will be fun.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I want to be alone, friends, go, shall we?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: you are a bitch
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: After completing the basic step, apply a small amount of moisturizing cream.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Okay, cancel cancel. It's not easy for you. It's difficult for you.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Hand over the list
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: What the fuck are you crazy? Then you are crazy.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: eat dinner
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: The stock was delisted
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I'm on set. I came out to buy dinner for the staff.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I said it was okay
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: After successfully graduating from university, is there no need for reading? No.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Let’s promise ourselves to hold on just a little longer.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I don't know how many years it took to change all my spending habits stably.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Still, it’s better to have a savings account.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: You go there on your own, you eat and everything.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: my head hurts
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Did something like this happen because I was greedy about my salary account?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: That’s Hyoeun
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: It's going to be rainy starting tomorrow
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Trying to use home technology with low tax burden
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: From subtle to dark
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: Please compare events through recommended events.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: You must not let go of tension even for a single day.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Please do not delete the warning and post it.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: If you tell me to stay alone, I want to go with you.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Got caught speeding while going 100 km/h
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: The car is packed, so we arrive in ten minutes.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: ours is good
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: I wrote a brief introduction about myself, and I hope we can have a good relationship.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical command
+---
+Tekst: It would be better to cheer for the sidekick.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I can't come to Seoul
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I plan to go down to the countryside tomorrow to say hello.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I have a friend who suffers from erectile dysfunction.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: When icons like the picture below appear, click the Send button.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I want to rest in my room
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: prone to depression
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: He went to America
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Relax
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: where can i get all this
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Class canceled today to attend teacher conference
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I asked the man picking vegetables the way down to the Mori rice mill, but he didn't know.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: My mom told me to go into hiding.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: The weather forecast said it would rain tomorrow.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: The drama department is doing well.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: They say they do it
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: My personality is weird. I'm not really a crazy person. I don't want the director to die, so why do I do it? I didn't take bribes from those people.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Try making delicious chocolate ice cream dessert at home.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: that's my dream
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: Five more minutes. I think we'll run away together like Do-woo said.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Would you like to sit over there?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Here is my business card
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: When I went to the garlic field, I couldn't help but laugh, but when I looked at the seeds, it was okay.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: The weather is killing me
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Why is this female director Junyoung so cute and tall?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: When you come here, it’s like the Han River.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: The company operates a commuter bus, so commuting to work is easy.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I can't say anything
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: My back hurts so much today. Is it going to rain?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I quit that day
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: It's okay if you forget me, I wish you were alive
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical command
+---
+Tekst: My wife
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: Because God isn't listening
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: This typhoon is weaker than expected
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Does the damage caused by stocks only end in material damage?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I want to do pottery
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I want to learn swimming and squash together.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: If you're offline and the online light comes on, let's work hard.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: And you need the courage to escape from your existing position.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Let's start with some extra money.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Let's get to the point now.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I went to work
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I went and asked what happened to my eyes and why I didn't say that my eyes hurt.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: I decided to meet my friend in Gangnam next Monday.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: We need to improve the treatment of non-regular workers
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I went on a trip abroad by plane.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I'm not fooled
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I found a few ways of my own.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: If you mix castella and muffins too much, the softness will decrease, so mix them moderately.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Do-woo too
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: They don't suffer from hypokinesia
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: The radio says it's raining in Yeouido right now.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: You know that this is a place where people like Seok-hyung have to be temperamental and stubborn to protect themselves.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: You make a water bomb by adding water to a small balloon.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Be sure to leave your nickname, name, address, and contact information in a private comment.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Social research requires looking at maps carefully.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Stocks move like frogs
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Did you report that you had side effects? No, no, no.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Tomorrow is our one year anniversary of dating.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: embrace
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: I'll be back with a Minecraft story, so look forward to it.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Order from Kyobo with free shipping on Dongbang Gugun Gusu.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: playing
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: It snowed a lot in New York this winter.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: It's expensive, so you have to be careful.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical command
+---
+Tekst: You don't know
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: There's an IQ test tomorrow at school.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Before purchasing a home, let’s figure out the bus route.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I want to make some overseas investments.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: How hot is the autumn sun?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I didn't cook
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: It is basic to keep looking at your body when exercising.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: You are free to choose your repayment method
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I lost my phone a few days ago
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I don’t know how to ride a bike because I’m used to riding behind my brother.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Whether it's ten years or a hundred years, any Saturday
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Write down the key points in your notes and read them during the exam.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: There is a special Chuseok exhibition this week.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Please note this if you would like to order an ivory trunk.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: We made a lot of money this year, so let’s make a lot of money next year too.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I would like to know how much the class costs
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Everyone said it here
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: older women than older women
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: Put earphones in your ears and listen to it.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: There was snow forecast until early this morning.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Did I ask you to go?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I can't wait
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I'm going
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Just talk
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: Children need to run around and grow up to be healthy.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical command
+---
+Tekst: There were cockroaches in the jjamppong I ordered.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Who wouldn't be the son of a farmer?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I don't know again
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: First time seeing Seoul
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: You can pay for the car by bank transfer.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Our Lord, who searches hearts, says this:
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Don't look at my ugly feet, just look at the sandals.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Credit card expiration date has expired
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: It's not pretty now
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: It's leaking
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: We provide you with optimal nutrients and protect your health for life.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Don't think I'm not interested
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: What is it like under the eaves?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: When an order is given, a report must follow.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I have no heart
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I'm not going
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Go to Jinsook in New Zealand.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I'm not okay
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Why is the weather so cold that I’m scared to go outside?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Today’s seminar begins in one hour.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I'll see you at the office tomorrow.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I want you to come in when you stop snoring.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I'll write it next time. Please leave a comment.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I drank yesterday too, so I’m going to rest today.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Milk contains a lot of calcium
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I don't know yet
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: How long are you going to keep making kids like Joohyun?
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: You lost a lot of weight
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: The taste is good here too. It's not ginseng, which is good for your health.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: If you have any questions, please contact us
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: The seminar location has changed
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I can't answer the phone because it's in the parking lot. I'll go up and call you.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Don't worry too much and don't do any work well.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical command
+---
+Tekst: That's it, just give the money back.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: May the deceased rest in peace.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical command
+---
+Tekst: You said you would make the ticket reservations accurately.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I fixed my home computer
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Secondhand smoke is actually more dangerous
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Indirect investment becomes active
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Hug me and tell me it's okay, come on
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Hail the size of fists rained down
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Now, let’s make some good stewed meatballs as a side dish.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Here, you can show your ticket to the station master and enter.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I listen to it sometimes
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: If you buy this book, you'll get a ticket to the exhibition.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Let's spread the word about Easy Day Brown House directly imported coffee beans and receive a gift as a gift.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I have
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: It's strange
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: wait there
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Hyein: I hope Korea also acts with this kind of decisiveness.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Don't get angry
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Will you help me? So we ended up doing this naturally.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: The other kids won't be able to handle it. Put them under Gyuho.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Throwing trash while driving is also a risky factor.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I should mainly buy high dividend stocks.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: This plan may fail along the way
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: I want to resign from tomorrow and rest at home.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Take it easy
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical command
+---
+Tekst: turned around
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: After exercising, you should shower with warm water to relax your muscles.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: There will be
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: I got a department store gift certificate
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Open a memorial exhibition for Go Eun-hee
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Reservations for the Chuseok holiday begin on the 20th of this month.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Stomach cancer is said to be painful only after the third trimester, so you have no idea.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: We ask for your continued interest.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I'm going home
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I'm about to get the IV gel.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Living like a crazy bitch
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: If you have some extra money, it's okay to give it a try.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Since we have nothing to do, let’s just make fun of it
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: Waiting for the stork that left around the time of the first frost last fall
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: It's at Mr. Dow's old house.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: No matter what mom says, I know dad didn't abandon me
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Street Culture Festival is just a few days away
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: May oil day is Children's Day
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical command
+---
+Tekst: I'm in the school computer lab right now
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I know how to say that
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Your job too
+Prawdziwa etykieta: statement
+Przewidziana etykieta: fragment
+---
+Tekst: You don't care. It's a problem between Ji-kyung and I. You and I are close enough to make money transactions, but I don't know about you.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: rhetorical question
+---
+Tekst: The file has a password, so you can share it.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I went to a wine farm today
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Just because your body falls, doesn't mean your mind falls too.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: It's a rainy Friday, but tomorrow is the weekend.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: You have to get off at Apgujeong Station and walk a long way to get to Rodeo Street.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: All members use Hyundai Securities mock investment.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: Tea is coming
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: You go until you go
+Prawdziwa etykieta: statement
+Przewidziana etykieta: command
+---
+Tekst: I'm drinking now
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I have no thoughts
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Fog is expected in our ETA.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: All you have to do is do what the computer tells you to do.
+Prawdziwa etykieta: statement
+Przewidziana etykieta: question
+---
+Tekst: They said they were starting yoga, but why didn't I invite them?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Did you know that I decided not to give you artificial tears?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: No one around you knows much about stocks
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: This time I changed my glasses and there is no news from you because of the horn rims.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: The day I bought something online
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: You said you were buying stocks, so you have some extra money.
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Unmanned camera location in Dongrae direction
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Hey Lee Gija, what is the point of this story?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: A famous dental clinic in Seoul that provides painless treatment.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Why do people say that if you have a lot of bank accounts, you are rich?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: I got an important email
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Youngmi Lee Confirm your reservation
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Senior, I'm going to a meeting today.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Search for emails from the company yesterday.
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Could you please check the remaining space in my mailbox?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Why are deposit interest rates so low?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: I drank too much yesterday and my stomach is so sore. I don't have any medicine at home.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: I know what you might do
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: The 11th of this month is a weekend
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: The subway is still dangerous these days.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Would you like to show me the email with the coupon title?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: It is unclear how much the area where tropical nights will occur will expand.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: You can cancel sending the email you just sent.
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: There was an earthquake this month
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: There’s a cool wind blowing today
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Robot Detective Gadget's Last Name
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: I want to show you the emails I haven’t read in a week.
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: The secret to successful investing for amateurs
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: If you have a black eye, why do you rub it with an egg?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: They said I had to fart after surgery, but I did.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: I put it in the reference for the manager and CEO.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Or you don't want to go to school
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Why did you cry so much then?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Show email with coupon subject
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: I don't have a bat
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I have set an alarm for emails related to the reunion.
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: When salt dies
+Prawdziwa etykieta: question
+Przewidziana etykieta: fragment
+---
+Tekst: When Almonds Die
+Prawdziwa etykieta: question
+Przewidziana etykieta: fragment
+---
+Tekst: I recorded the video at ten past ten.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: where do you live
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Do you want to ask me a favor?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Song Mi-jin, why are you like that?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Isn’t it sunset time today?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Can you just give me money or something else?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Why are there so many cell phone transactions in banks these days?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Why aren't the buses running like this?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: how was it
+Prawdziwa etykieta: question
+Przewidziana etykieta: fragment
+---
+Tekst: Can you check again?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: We can exercise together this Wednesday evening.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: The dinner movie plan was canceled.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: I have to take an umbrella
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: The weather in New York is good right now
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Check your mailbox capacity
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: how long will you stay
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Check your order confirmation email for a new letter.
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: What will Suzy look like if she shaves her head?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: There were several heat wave warnings in July last year.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: The man didn't come in.
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Why should you come to our university?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: There is a fee when making a cashier's check.
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I know that online stock commissions are the cheapest.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Can you really make money by investing in stocks?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: It's coming out on Friday
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: The rainy season front moves north in early July.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Can't I register my parents as non-dependents on my health insurance?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: That girl from a rich family must have studied well like you if she worked at a broadcasting station.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Brother, you still drive on gas these days. Gas prices have risen a lot.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: How to say you are a really handsome man in four characters
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: When does it go up?
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: You didn't come to my brother's meeting. I brought a cell phone strap from Starbucks.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Tomboy Pippi is made up of seven characters.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Will dancing make my body more flexible?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: If it rains tomorrow, I'll have to cancel my bike ride.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: My uncle was perhaps a eunuch
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Can I cancel sending an email?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: I don't have a flight itinerary to Tasmania to visit early next year.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: I have some unread letters
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Can't I get compensation for fake checks?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Can you show me today’s schedule?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Yes, will it fly or will it land?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Can’t I find out the stock chart of a failed company?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Among soccer-related articles, I only see ones related to Zidane.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: It's been a few days since I was discharged from the military.
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: It will be much cheaper if you buy it as a group purchase. So, do you want to buy it too?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: A lot of time to eat at home
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Tell me honestly, I like his acting
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: The fan goes into sleep mode after two hours.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: What's the weather like there? It's very bad here.
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Applications are due this week
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Don’t you somehow want to go back to Yeoksam-dong where you went back then?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Is this picnic also for families?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: How far
+Prawdziwa etykieta: question
+Przewidziana etykieta: fragment
+---
+Tekst: Is there anything suitable for me?
+Prawdziwa etykieta: question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: You received a text message saying that you called earlier.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Would you like to show me the email with the point title?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Let me know when it's time to change lenses
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Sing loudly at home
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Do you hate working with me? Why do you say anything to me?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: But really, why did you abandon me then?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Who comes first, my senior or my older sister?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Can you confirm receipt of the email you sent to your business partner this morning?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: The work was worth doing, but looking at the picture, he was very thin.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: Wouldn’t the transfer interest be high when sending money to an overseas bank?
+Prawdziwa etykieta: question
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Can I cancel my plan to go to the department store on the weekend?
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Next Saturday is my nephew’s first birthday party.
+Prawdziwa etykieta: question
+Przewidziana etykieta: statement
+---
+Tekst: You need to prepare for flood damage.
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Let’s go eat something. I have no appetite these days.
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: Please check the email from the Teaching and Learning Development Center.
+Prawdziwa etykieta: question
+Przewidziana etykieta: command
+---
+Tekst: I'm canceling my trip to England.
+Prawdziwa etykieta: command
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Any use will be punishable as a misdemeanor.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Isn’t changing jobs too often bad for your career?
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Please check the schedule to see if there is a report to be submitted by the day after tomorrow.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: I'm going to go shopping, so I'll definitely come out and call you later in the evening.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: There are almost sharp curves ahead so be careful.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: So, you should make yourself flexible by doing yoga.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: The date of the synchronous meeting has been revised to next Friday at 9 p.m.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: I can bring you a note with key points tomorrow.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Let's at least be friends like this. We're not the same people who killed our parents.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Can you check the spelling of the email I just wrote?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Can you check how many unread emails there are and mark them as read?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: The investment amount should be less than ten percent of your salary.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: To be well-being, you should focus on natural foods.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Dinner is held at a Japanese restaurant.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Be careful because drastic changes in lifestyle are dangerous to your health.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: You're a player, so you probably have a lot of cases. Just because you're a senior doesn't help you in life, so when I'm being serious like this, why don't you give me some proper advice?
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical question
+---
+Tekst: What are you doing? You're back at the academy and the teacher is worried.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: The French class time will be changed to 11 o'clock next Wednesday.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: How about a trip around the 20th?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: For accurate calculations, you must speak to a securities sales representative.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: The understanding and image of stocks must change
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Check the fresh vegetables in the refrigerator.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Take a good look at your mother
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: She also worked out regularly and became quite slim. You should do the same.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Is it possible to print the email the professor sent yesterday?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: No, no matter how close your friend is, guarantees are prohibited.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Our team is having a drink together in the evening.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: It's not too hot yet, so I'll get by with the fan.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: I'll come to your house this week. Take care of your anger.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Show me this month's calendar
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: I'll pick you up in front of your house tomorrow, so be nice.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Even if it's hard due to the holiday break, cheer up and work hard.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: It's been a while since I got my face stamped, okay?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Make me pretty this Saturday
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: If you score less than 80 on the quiz, you will have to retake the test.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: If you wear thin clothes, you will catch a cold, so be careful.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: I want to show you the weather on the sea today
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Still, I think paragliding is a bit dangerous, but I have to do it.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Apply glue to one end and fold it.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: I prefer reading textbooks rather than taking expensive private lessons.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Friend, I'll tell you my account number, so you can send the money here.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: This week's elementary school class reunion is canceled.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: I got a call from Dong-hwi and he said he would write a lot because he was lonely.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: If you hit the ground, it’s just ten laps of the playground.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Find out when I have a drink date with my friends.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Dad, you can’t drive while drowsy.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Show me your schedule for this morning.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: If you make fun of a child like that, as a mother, I can't do that. You can't live in such a narrow-minded way in the world.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: It is recommended to combine anaerobic exercise with aerobic exercise.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: There are many pretty places where you should stay at a pension rather than a bed and breakfast.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Can you show me what your dog looks like at home?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: It's not like you're too upset with me.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: They say quince tea is good for colds.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: When negotiating, hope you both choose a way that wins.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Let me know that you have plans for tomorrow morning at 8pm this evening.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Dad change
+Prawdziwa etykieta: command
+Przewidziana etykieta: fragment
+---
+Tekst: However, if possible, it will be cured immediately if you follow the steps below.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: We hope you come to the wine party and have a great time.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: tell me the conditions
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Oh, that little girl is really, oh, oh, oh, don't cry, don't cry
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: The wind makes me spin
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: There's a discount event going on at the supermarket, but I don't want to go.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: It's been a while since we've met, so be nice.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Check if there are any important emails
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Look at today’s weather and recommend what clothes to wear when going out.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: I'd better go to the hospital quickly
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: you look at my fingers carefully
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: miss you
+Prawdziwa etykieta: command
+Przewidziana etykieta: fragment
+---
+Tekst: Can you confirm daily receipts from overseas?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: I hate you when you don't say hello again
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Please compare the weather in Busan and Seoul tomorrow.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Recommend a dish I can cook right now
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Anything directly related to work must be reported.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: I'd rather meet at school than church
+Prawdziwa etykieta: command
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: It's best to rest for a cold
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: see you tomorrow
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Show me what day the sales team meeting is on this week
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Must have the ability to trade quickly
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: If possible, should I cancel that appointment?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Drunk people are not allowed to enter.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Tea is seven pieces and reservations are available.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: I'm canceling my date with my girlfriend today.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Could you please tell me that the schedule for tonight is Interpark Ticket?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Please check the official letter from the company within one year.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Congratulations on your admission and hope you have big dreams.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Let me know if someone comes to the front door
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Those who wish to restore their body through fasting are encouraged to apply.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: don't worry
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Sort the letter from my boyfriend.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Wouldn't it be better to create a bank account at school because it will be easier to use here and there?
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical question
+---
+Tekst: I connected the video phone to see who was outside.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: I can't do it any faster
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Enjoy leisure sports through fun games with your children.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Sell ​​good news at the top and buy bad news at the bottom.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Please check if you have received a contract renewal email and send the details via text message.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: You have to go home and unwrap the gift I gave you.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: When you get your first paycheck, you probably didn't forget to buy me a present.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: uh rest
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Tell me what you saw and heard
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Congratulations
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Could you please check the temperature of the freezer?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Congratulations, friend, I guess I should take a shot.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: If you go first, I will follow you.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Shall we have some fun today?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: I'm going to eat cup ramen from an electric pot.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Can you tell me what the highest temperature will be tomorrow?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Please search every day that came yesterday afternoon.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: I'm going on a business trip today, so please take care of the rest.
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: I want to give it a try
+Prawdziwa etykieta: command
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Let's look at the ceiling of the incendiary room.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: We decided to watch it alone, but why does that person always bring me out?
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Please bring me the main schedule of this week.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: I wish I could turn the TV volume down when I sleep.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: I like to keep my surroundings clean.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Could you please collect articles related to the national judo competition?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Make sure all emails received yesterday have been deleted and also delete the sent mailbox.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Instead of just contacting a child who is far away and telling him or her to study, take him with you and keep him next to you.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: I don’t have much to live for, so I’ll meet you afterward.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Find the email sent by Jeongmi among today's new letters.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Check if the air purifier filter needs to be replaced
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: If you have any unblocked emails in the unsubscribe box, please tell me.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: I guess I don't understand your situation right now, but I'll listen to whatever you say to me, so for now, apologize to Hyo-eun first.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Diabetic patients are prohibited from taking this medicine.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Please let me know if the mailbox capacity is less than 100 megabytes.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: You can't fall asleep in class just because you studied at the academy.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: There's nothing to worry about
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Take care and eat
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: You agreed to take me to school every day.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: take your time
+Prawdziwa etykieta: command
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Can you tell me about your hike to Naejangsan Mountain in September this year?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Let me know your schedule for next week and cancel if you have a dinner party.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Try it
+Prawdziwa etykieta: command
+Przewidziana etykieta: fragment
+---
+Tekst: There’s no need to have a pointless emotional fight.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: You should also check if there is a family history of stomach cancer.
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: Shall we have some fun today?
+Prawdziwa etykieta: command
+Przewidziana etykieta: question
+---
+Tekst: When it snows, I wear chains around my wheels.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: There is nothing more dangerous than drowsy driving.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Of course, you have to serve society.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: For each cut, my senior and I let’s go slowly and count to five or more for a long time.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: I lost my ATM card and would like to recreate it.
+Prawdziwa etykieta: command
+Przewidziana etykieta: statement
+---
+Tekst: Did I raise you too strong?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Who knew that the stocks I bought last year would triple?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Since when does an actor become a director?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: You don't need a statement to check how much your salary was.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: It smells like kimchi. You didn’t even brush your teeth after dinner.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Do you always have your period? It ended last week.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: I want to
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I feel uncomfortable about what I did and how I did it
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Maybe it's because he's an actor, but he has no regrets, no sense of guilt, and poor Kim Min-cheol
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: They say you can’t even catch a cold in the month of May, so what are you doing?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: I don't think running a marathon is as easy as it sounds.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: You're not saying anything, you're just ignoring me.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Let go of these, let go, can you tolerate the same thing?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: command
+---
+Tekst: A father can't even tell his daughter to live properly.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: A conglomerate like you is shaking at the price of a single card.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: If you're a senior, you don't have to work if you get a good offer like this.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: You promised to set me up on a blind date, but why aren’t you calling?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: command
+---
+Tekst: I'm going to give it all up
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: I know well that Director Jeong was a capable person when the company was founded, but what about now?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: I bought this dress just a week ago and the return deadline has passed.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: You don’t even know you’re embarrassed because you haven’t learned anything.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: I have no reason to hide like this, what did I do wrong?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Why does he have overtime pay?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: How far do I have to go to see the end?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: I threw it away
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: You'll be late
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: I've made all my reservations, but what if I cancel?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: why suddenly
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: fragment
+---
+Tekst: What should I do if the teacher evaluation system is a social issue?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: And then, if it falls apart
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: I can’t believe I’ve already been discharged from the military. Time flies.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Captain Park, you still don’t understand the situation.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Even if you make a person an asshole, how can you do this?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Eun-joo said she went to medical school after taking the college entrance exam again.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Welcome, you know it's late.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: 연세도 얼마 안되셨는데 노망나셨어요 
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Hello, the weather has been cold and hot these days.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Wow, that's it, what kind of mini-star, go and be a mom for a weekend or a day, I really don't like it.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: command
+---
+Tekst: Maybe the weather forecast is never right
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: what's the matter
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Loan screening is becoming more and more difficult, so what should I do?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: I can't do it, it's a three-day market, so I have to go to Ohdra again.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Do you know how expensive the fees are if you pay off your credit card?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: What do you keep confessing to me?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: You must learn English like that from a young age.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Working is not difficult
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Choi Soo-ah said she went to Jeju Island.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Why do you refuse?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: What's so weird?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: I'm going to a picnic, but why does it rain today?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Stocks are easy, so you need some lump sum money.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: command
+---
+Tekst: Now I'm worried about making a living
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Well, wouldn't it be possible to predict for about six months?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: command
+---
+Tekst: How is he so good at studying?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Why am I on fire again? Writer Lee, it's more of a script than a synopsis. Let's take a look at the actors' faces first. Let's look at their faces and then talk.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: command
+---
+Tekst: If you have eight scripts, you can go in today, but there are two months left, so why can’t you go in?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: command
+---
+Tekst: Are you curious about your child’s aptitude?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: He just appealed for me to change it and didn't confirm it.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: You said you were suspicious
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: After becoming a writer, I can't say things like I like this person or that person.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Where are the gaps in university assignments?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: I really need to go to the bathroom in this weather
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: What do you do if you have a driver's license?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: You've already forgotten the promise you made to me before.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: He said he was bitten by a rat while working in the lab.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: I'm sure you're not telling me to do all the editing myself.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: I hope your precious daughter is safe.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: I heard you received your first paycheck.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Still, the risk is not too great
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: I know what the most common in-flight meal is in Korea.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Why is this road not blocked?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: I know who created this company
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Hey, you too, Kim Min-cheol, who is unlucky to be here, suddenly wakes up after drinking expensive alcohol in Ondae.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: It's strange if you can't see anything.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: I heard your friend has terminal stomach cancer. What are you going to do?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: I think I have chronic depression. What should I do?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: The new team leader will be someone who studied in the US.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Well, there has been so much talk since the morning.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Is there any sport as exciting as squash?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Do you know how many people got screwed yesterday because of you, you stupid bastard?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: That's right, just send your daughter anywhere.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: command
+---
+Tekst: I have a concept
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: Why are there no announcements on the bus?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: I poured so much money into stocks, but where did all that money go?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: Why don't you contact me
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: command
+---
+Tekst: Ugh, I was saddened by what my mom must have felt when her dad called her vulgar.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: Are you asking whether international schools also use the word ‘land’?
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: question
+---
+Tekst: They said it was Daebang Station, not Sindaebang, so I took the wrong ride again.
+Prawdziwa etykieta: rhetorical question
+Przewidziana etykieta: statement
+---
+Tekst: I have become a mother. Please bless my baby.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: hello
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: question
+---
+Tekst: Either you say you hate me and you want to kick me out, or you do that.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: rhetorical question
+---
+Tekst: You save my daughter, you save my daughter, you bitch
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: Sojeong is growing up well and I want to see her sometime.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: We are offering a 30% discount even in sub-zero weather, so please show your interest.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: I'm going on a business trip. I'll see you when I get back.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: no, harder
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: hi
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: fragment
+---
+Tekst: Let’s wait and see, he’ll cry because of me later.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: He said that it was embarrassing that director Pyrami, who had produced only two one-act films, dared to invite me for a special drama instead of a mini-act, and he made a fuss and said that he would not let me go and call me on his cell phone one more time.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: Eat a lot and grow up well
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: Just make sure you leave it alone while I film because I'll show you what it's like to be fucked.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: I made sure to know that I received a lot of love.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: I'll see you in a month, so take care until then.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: Don't overdo it and exercise slowly.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: I hope you get over the shock of the accident quickly.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: hello
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: question
+---
+Tekst: I'm scolded for looking down on you because I'm a woman. Let's fight. Fighting.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: Tell me what you want first
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: question
+---
+Tekst: think carefully
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: I hope there is no mistake
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: Don't forget it's announced on Friday
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: Please protect me with all your might.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: I hope you put all your skills to good use during the interview.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: How have you been?
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: intonation-dependent utterance
+---
+Tekst: live hard
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: fragment
+---
+Tekst: Cherish Wednesday, half of the week.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: statement
+---
+Tekst: Let's evaluate the stocks I invested in.
+Prawdziwa etykieta: rhetorical command
+Przewidziana etykieta: command
+---
+Tekst: I'm embarrassed
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Have you ever seen the Korea Meteorological Administration’s supercomputer?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: I'm standing on the subway platform now
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: It's sale time at the department store. Should I go take a look?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: There is no such thing
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: There were a lot of people who had fun with the movie fund.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I got a call from work this morning.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I did push-ups yesterday
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Bidet move function works
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: It's sunny today
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: We changed the location to Gangnam
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: contact another friend
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: You can get to Hyehwa Station in 30 minutes.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I told them to avoid everything.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: A tutor comes in the evening
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: How many food plans do you have this month?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: The signal in front of the tunnel is short.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: My sister’s ballet lessons start in April.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: All days are fine except Tuesday
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: When you go to the bank, you have to give them your social security number.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: This is the famous restaurant
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Captain Park said he also irons pajamas.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I hate it because there is so little snow.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Would you like to buy some cola from the supermarket?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: it's hard
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: He always comes later than his scheduled time.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I got some emails today
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: Diversification of investments is necessary to reduce risk.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Miseon's mom, there is a neighborhood meeting today at Cheonsamho.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: That company is a stock worth investing in.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Online joint ventures are good because their fees are low.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Banking is now possible via mobile phone.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: The car stopped on the road
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: This month's paycheck comes on the 11th.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Go to the bathroom. I flushed the toilet.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: I'm going to take pictures of wild flowers.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: We filmed a movie at school today
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I have to go to work even during the Lunar New Year holiday.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Racquetball and squash are different.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: They gave me some kind of pain reliever.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Aerobic exercise helps prevent stroke
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I can't study in the library reading room.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I don't know because I'm out working outside.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: There's a class reunion this evening.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: tomorrow's weather will be cloudy
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: Some people invest in overseas funds.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I love you baby
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: There was a thief
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I already saw it
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: You're just an office manager.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I'll have a sandwich for lunch
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Your daughter arrived safely.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Oh I'm still standing
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I received an email from Assistant Manager Kim last week.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: Where should I stop by?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: That's what I do at home
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: Not the problem we expected
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Think about it in conjunction with a gift.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: There is an article about Korean national team soccer
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Isn't it too risky to invest?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: rhetorical question
+---
+Tekst: I can't go tomorrow
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Arrive soon
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: I want to know about over-the-counter stock prices
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: The morning air is so refreshing. I want to go get some fresh air.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: It's a joke
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: The singer's concert is an outdoor performance.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I'm not angry
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Run ten laps and then do it again.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: will come
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Are you healthy?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: just like that
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: fragment
+---
+Tekst: The area of ​​social inquiry is the problem.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: If you own stocks, you will receive stock dividends.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I need enough rest
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: It would be cold if I just wore a sweater and went out.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I'm on vacation starting the 3rd of April.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: You can take the shuttle bus from school.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Then that's it
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: fragment
+---
+Tekst: You shouldn't go to the bathroom carelessly.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: What is so sad?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: rhetorical question
+---
+Tekst: Sol Kyung-gu and Jung Jun-ho are coming to Daegu tomorrow.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: You can't use that with a transportation card.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Sit-ups are really good for your abs.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: There is a kid like that
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: The atmosphere at work is good
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: They say walking is an aerobic exercise
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: It's true
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Make a reservation for a direct bus
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: I really don't misunderstand
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: There is an announcement email from the alumni association.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: The top of the mountain is still covered with snow
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: There is a design studio after-party tomorrow.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: You have to walk a lot to transfer to that station.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: Do your work
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: rhetorical command
+---
+Tekst: Yeonhee Sunvan divorced
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Home shopping may be more advantageous
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Oh, I got a call from my wife.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I completely changed my company computer.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Then you have heard all the essential knowledge.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: It was this person
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I received a lot of stock options this time.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Afterwards, it will have to be taken away while being transported in a special vehicle.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I trust Hyewon.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I can’t take a model taxi because I don’t have money.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Go to church this weekend and get baptized
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: Secondhand smoke also causes lung cancer.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: not good
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Manager, your plan to go to Busan tomorrow has been cancelled.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: These days, even pornographic sites are blocked within the company.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I have a schedule after 6 o'clock today.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: Nothing particularly difficult these days
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: That gym focuses on swimming.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: This paper test seems to be quite easy.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: There's a studio over there.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: It was like that at the hotel back then.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: When you go to the bank, you have to give them your social security number.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: I heard that the school rankings have dropped a lot this time.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: There was a lot of traffic at Namtaeryeong Pass in the morning.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: I have some emails in my spam folder.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: My business trip plans have completely changed.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: You should not forcefully shut down your computer.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: Turn off the living room light
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: It rains on the weekend
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: The boss posted everything on the web hard drive.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: If you retire honorably, you get a lot of severance pay.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I'm going scuba diving tomorrow. Should I go?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: My friend's birthday is this month.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: Traffic is congested now
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: It's menstruation week these days.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: Exchange rates also affect stock prices
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I like you better than the filming set. Director Oh, I’m ready.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Even though it’s hot, I’m covered in blankets
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I really hate seeing that woman
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: They say the Ryu In memorial exhibition only lasts until tomorrow.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: The latest mobile phone is being sold for only 30,000 won.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I have stocks purchased with stock options.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Then you don't even need fruit
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: I think I'll be late
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I'm sleeping covered with a blanket
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Deokhwa oppa told me everything.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: The curtains in the master bedroom are closed.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: It's no joke
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Private school classes were changed to English.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: It's really hard to memorize formulas
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: If you go to an oriental medicine clinic and get acupuncture, it won’t hurt.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: It's late
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: In Korea, there is something similar to the American Dow Jones index.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: That friend entertains foreign buyers when they come.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Lee Sang-mu-rae in orthopedics
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: Reservations cannot be made over the phone.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: What happened?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: it's hard
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: They say Soocheol’s disease is a rare disease.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: I slept under you
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Don't text me
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: met
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: fragment
+---
+Tekst: Would you like to find an article about the Gold Cup?
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: question
+---
+Tekst: I got my first letter from my brother
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Only topics related to the meeting are covered
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: The subject of the test this time is freedom.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: Regarding expenses, only work-related expenses are paid.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: don't text
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: command
+---
+Tekst: I couldn't go home
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
+Tekst: There are many hospitals near the shopping mall.
+Prawdziwa etykieta: intonation-dependent utterance
+Przewidziana etykieta: statement
+---
