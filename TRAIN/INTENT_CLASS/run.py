@@ -9,7 +9,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
 
 # Load fine-tuned model from local path
-MODEL_PATH = "TRAIN/INTENT_CLASS/fine_tuned_model"
+MODEL_PATH = "TRAIN/INTENT_CLASS/further_fine_tuned_model"
 loaded_tokenizer = RobertaTokenizerFast.from_pretrained(MODEL_PATH)
 loaded_model = RobertaForSequenceClassification.from_pretrained(MODEL_PATH).to(device)
 

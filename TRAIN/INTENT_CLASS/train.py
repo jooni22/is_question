@@ -1,23 +1,30 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from transformers import RobertaTokenizerFast, RobertaForSequenceClassification, Trainer, TrainingArguments
+from transformers import (
+    RobertaTokenizerFast, 
+    RobertaForSequenceClassification, 
+    Trainer, 
+    TrainingArguments,
+    get_cosine_schedule_with_warmup,
+    EarlyStoppingCallback
+)
 from datasets import Dataset
 import torch
 import numpy as np
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, classification_report
 
 # Load and prepare data
-train_df = pd.read_csv("TRAIN/INTENT_CLASS/translated_kor_3i4k_csv/train.csv")
-test_df = pd.read_csv("TRAIN/INTENT_CLASS/translated_kor_3i4k_csv/test.csv")
+train_df = pd.read_csv("TRAIN/INTENT_CLASS/translated_kor_3i4k_csv/train_fix_v1.csv")
+test_df = pd.read_csv("TRAIN/INTENT_CLASS/translated_kor_3i4k_csv/test_fix_v1.csv")
 
 # Convert to Dataset objects
 train_dataset = Dataset.from_pandas(train_df)
 test_dataset = Dataset.from_pandas(test_df)
 
-# Load tokenizer and model
-model_name = "bespin-global/klue-roberta-small-3i4k-intent-classification"
-tokenizer = RobertaTokenizerFast.from_pretrained(model_name)
-model = RobertaForSequenceClassification.from_pretrained(model_name)
+# Load tokenizer and model from the fine-tuned directory
+model_path = "TRAIN/INTENT_CLASS/further_fine_tuned_model"
+tokenizer = RobertaTokenizerFast.from_pretrained(model_path)
+model = RobertaForSequenceClassification.from_pretrained(model_path)
 
 # Tokenize function
 def tokenize_function(examples):
@@ -40,21 +47,43 @@ def compute_metrics(pred):
         'recall': recall
     }
 
-# Training arguments
+# Adjust training arguments for continued training
 training_args = TrainingArguments(
-    output_dir="./results",
-    num_train_epochs=3,
+    output_dir="TRAIN/INTENT_CLASS/further_fine_tuned_model_2_fixDS/results_continued",
+    num_train_epochs=2,  # Increased the number of epochs
     per_device_train_batch_size=32,
     per_device_eval_batch_size=32,
-    warmup_steps=500,
-    weight_decay=0.01,
-    logging_dir='./logs',
-    logging_steps=10,
-    evaluation_strategy="epoch",
-    save_strategy="epoch",
+    warmup_steps=200,
+    weight_decay=0.1,
+    logging_dir='./logs_continued',
+    logging_steps=50,
+    evaluation_strategy="steps",
+    eval_steps=500,
+    save_strategy="steps",
+    save_steps=500,
     load_best_model_at_end=True,
-    learning_rate=5e-5,
+    metric_for_best_model="f1",
+    learning_rate=1e-5,
 )
+
+# # Adjust training arguments for continued training
+# training_args = TrainingArguments(
+#     output_dir="./results_continued",
+#     num_train_epochs=1,  # Increase the number of epochs
+#     per_device_train_batch_size=64,  # Reduce batch size to allow for larger learning rate
+#     per_device_eval_batch_size=64,
+#     warmup_steps=1000,  # Reduce warmup steps
+#     weight_decay=0.02,  # Slightly increase weight decay
+#     logging_dir='./logs_continued',
+#     logging_steps=100,
+#     evaluation_strategy="steps",  # Evaluate more frequently
+#     eval_steps=1000,  # Evaluate every 100 steps
+#     save_strategy="steps",
+#     save_steps=1000,
+#     load_best_model_at_end=True,
+#     learning_rate=2e-5,  # Slightly lower learning rate for fine-tuning
+#     metric_for_best_model="f1",  # Use F1 score to determine the best model
+# )
 
 # Initialize Trainer
 trainer = Trainer(
@@ -63,16 +92,28 @@ trainer = Trainer(
     train_dataset=tokenized_train,
     eval_dataset=tokenized_test,
     compute_metrics=compute_metrics,
+    callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]  # Added Early Stopping
 )
 
-# Train the model
+# Calculate the total number of training steps
+total_steps = len(tokenized_train) // (training_args.per_device_train_batch_size * training_args.gradient_accumulation_steps) * training_args.num_train_epochs
+
+# Set the learning rate schedule
+trainer.create_optimizer_and_scheduler(num_training_steps=total_steps)
+trainer.optimizer.learning_rate = get_cosine_schedule_with_warmup(
+    trainer.optimizer,
+    num_warmup_steps=training_args.warmup_steps,
+    num_training_steps=total_steps
+)
+
+# Continue training the model
 trainer.train()
 
-# Save the model
-model.save_pretrained("./fine_tuned_model")
-tokenizer.save_pretrained("./fine_tuned_model")
+# Save the further fine-tuned model
+model.save_pretrained("TRAIN/INTENT_CLASS/further_fine_tuned_model_2_fixDS")
+tokenizer.save_pretrained("TRAIN/INTENT_CLASS/further_fine_tuned_model_2_fixDS")
 
-print("Training completed. Model saved in ./fine_tuned_model")
+print("Continued training completed. Model saved in TRAIN/INTENT_CLASS/further_fine_tuned_model_2_fixDS")
 
 # Evaluate the model on the test set
 print("Evaluating model on test set...")
