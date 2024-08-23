@@ -97,12 +97,13 @@ training_args = TrainingArguments(
     metric_for_best_model="f1",
     learning_rate=5e-05,
     fp16=True,  # Enabled mixed precision training
-    gradient_accumulation_steps=2,  # Added gradient accumulation
-    gradient_checkpointing=True,  # Enabled gradient checkpointing
+#    gradient_accumulation_steps=2,  # Added gradient accumulation
+#    gradient_checkpointing=True,  # Enabled gradient checkpointing
+    optim="adamw_bnb_8bit"  # Use AdamW with 8-bit quantization
 )
 
 # Enable gradient checkpointing
-model.gradient_checkpointing_enable()
+#model.gradient_checkpointing_enable()
 
 # Initialize Trainer
 trainer = Trainer(
