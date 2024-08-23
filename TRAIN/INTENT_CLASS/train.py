@@ -58,6 +58,11 @@ model = RobertaForSequenceClassification.from_pretrained(
     }
 )
 
+# Move model to GPU if available
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+print(f"Using device: {device}")
+
 # Tokenize function
 def tokenize_function(examples):
     return tokenizer(examples["text"], padding="max_length", truncation=True, max_length=512)
@@ -99,7 +104,8 @@ training_args = TrainingArguments(
     fp16=True,  # Enabled mixed precision training
 #    gradient_accumulation_steps=2,  # Added gradient accumulation
 #    gradient_checkpointing=True,  # Enabled gradient checkpointing
-    optim="adamw_bnb_8bit"  # Use AdamW with 8-bit quantization
+    optim="adamw_bnb_8bit",  # Use AdamW with 8-bit quantization
+    dataloader_pin_memory=True
 )
 
 # Enable gradient checkpointing
