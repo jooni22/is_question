@@ -12,17 +12,27 @@ import torch
 import numpy as np
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, classification_report
 from tensorflow.python.keras.optimizer_v2.adam import Adam
+import os
 
-# Load and prepare data
-train_df = pd.read_csv("/root/is_question/TRAIN/INTENT_CLASS/translated_kor_3i4k_csv/train_fix_v1.csv")
-test_df = pd.read_csv("/root/is_question/TRAIN/INTENT_CLASS/translated_kor_3i4k_csv/test_fix_v1.csv")
+# Define the model save path
+MODEL_SAVE_PATH = "./custom-dst-roberta-base"
+
+# Ensure the directory exists
+os.makedirs(MODEL_SAVE_PATH, exist_ok=True)
+
+splits = {'train': 'train_fix_v1.csv', 'test': 'test_fix_v1.csv'}
+train_df = pd.read_csv("hf://datasets/jooni22/dst-question/" + splits["train"])
+test_df = pd.read_csv("hf://datasets/jooni22/dst-question/" + splits["test"])
+# # Load and prepare data
+# train_df = pd.read_csv("./train_fix_v1.csv")
+# test_df = pd.read_csv("./test_fix_v1.csv")
 
 # Convert to Dataset objects
 train_dataset = Dataset.from_pandas(train_df)
 test_dataset = Dataset.from_pandas(test_df)
 
 # Initialize tokenizer and model
-model_name = "FacebookAI/roberta-base"
+model_name = "jooni22/custom-dst-roberta-base"
 tokenizer = RobertaTokenizerFast.from_pretrained(model_name)
 model = RobertaForSequenceClassification.from_pretrained(
     model_name,
@@ -70,13 +80,13 @@ def compute_metrics(pred):
 
 # Training arguments
 training_args = TrainingArguments(
-    output_dir="/root/is_question/TRAIN/INTENT_CLASS/roberta_base_scratch",
+    output_dir=MODEL_SAVE_PATH,
     num_train_epochs=1,  # Ustawione na 10, ale z early stopping
     per_device_train_batch_size=16,
     per_device_eval_batch_size=16,
     warmup_steps=500,
     weight_decay=0.01,
-    logging_dir='./logs',
+    logging_dir=os.path.join(MODEL_SAVE_PATH, 'logs'),
     logging_steps=100,
     evaluation_strategy="steps",
     eval_steps=500,
@@ -101,10 +111,10 @@ trainer = Trainer(
 trainer.train()
 
 # Save the fine-tuned model
-model.save_pretrained("/root/is_question/TRAIN/INTENT_CLASS/roberta_base_scratch")
-tokenizer.save_pretrained("/root/is_question/TRAIN/INTENT_CLASS/roberta_base_scratch")
+model.save_pretrained(MODEL_SAVE_PATH)
+tokenizer.save_pretrained(MODEL_SAVE_PATH)
 
-print("Training completed. Model saved.")
+print(f"Training completed. Model saved to {MODEL_SAVE_PATH}")
 
 # Evaluate the model on the test set
 print("Evaluating model on test set...")
@@ -128,5 +138,6 @@ print(classification_report(true_labels, predicted_labels,
 
 # Optional: Save predictions to CSV
 test_df['predicted_label'] = predicted_labels
-test_df.to_csv("/root/is_question/TRAIN/INTENT_CLASS/roberta_base_scratch/test_predictions.csv", index=False)
-print("Predictions saved")
+predictions_path = os.path.join(MODEL_SAVE_PATH, "test_predictions.csv")
+test_df.to_csv(predictions_path, index=False)
+print(f"Predictions saved to {predictions_path}")

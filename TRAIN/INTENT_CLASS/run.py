@@ -9,9 +9,35 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
 
 # Load fine-tuned model from local path
-MODEL_PATH = "TRAIN/INTENT_CLASS/roberta_base_scratch"
-loaded_tokenizer = RobertaTokenizerFast.from_pretrained(MODEL_PATH)
-loaded_model = RobertaForSequenceClassification.from_pretrained(MODEL_PATH).to(device)
+#MODEL_PATH = "TRAIN/INTENT_CLASS/roberta_base_scratch"
+#loaded_tokenizer = RobertaTokenizerFast.from_pretrained(MODEL_PATH)
+#loaded_model = RobertaForSequenceClassification.from_pretrained(MODEL_PATH).to(device)
+
+
+model_name = "jooni22/custom-dst-roberta-base"
+loaded_tokenizer = RobertaTokenizerFast.from_pretrained(model_name)
+loaded_model = RobertaForSequenceClassification.from_pretrained(
+    model_name,
+    num_labels=7,
+    id2label={
+        0: "fragment",
+        1: "statement",
+        2: "question",
+        3: "command",
+        4: "rhetorical question",
+        5: "rhetorical command",
+        6: "intonation-dependent utterance"
+    },
+    label2id={
+        "fragment": 0,
+        "statement": 1,
+        "question": 2,
+        "command": 3,
+        "rhetorical question": 4,
+        "rhetorical command": 5,
+        "intonation-dependent utterance": 6
+    }
+).to(device)
 
 # Using Pipeline
 text_classifier = TextClassificationPipeline(
