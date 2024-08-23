@@ -87,13 +87,13 @@ def compute_metrics(pred):
 # Training arguments
 training_args = TrainingArguments(
     output_dir=MODEL_SAVE_PATH,
-    num_train_epochs=10,
-    per_device_train_batch_size=128,  # Increased batch size
-    per_device_eval_batch_size=128,    # Increased batch size
+    num_train_epochs=20,
+    per_device_train_batch_size=164,  # Increased batch size
+    per_device_eval_batch_size=164,    # Increased batch size
     warmup_steps=500,
     weight_decay=0.01,
     logging_dir=os.path.join(MODEL_SAVE_PATH, 'logs'),
-    logging_steps=100,
+    logging_steps=50,
     evaluation_strategy="steps",
     eval_steps=500,
     save_strategy="steps",
