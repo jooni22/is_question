@@ -104,7 +104,7 @@ training_args = TrainingArguments(
     fp16=True,  # Enabled mixed precision training
 #    gradient_accumulation_steps=2,  # Added gradient accumulation
 #    gradient_checkpointing=True,  # Enabled gradient checkpointing
-    optim="adamw_bnb_8bit",  # Use AdamW with 8-bit quantization
+    optim="adamw_torch",  # Use AdamW with 8-bit quantization
     dataloader_pin_memory=True
 )
 
