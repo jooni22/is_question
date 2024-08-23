@@ -13,6 +13,7 @@ import numpy as np
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, classification_report
 from tensorflow.python.keras.optimizer_v2.adam import Adam
 import os
+from tqdm import tqdm
 
 # Define the model save path
 MODEL_SAVE_PATH = "./custom-dst-roberta-base"
@@ -81,9 +82,9 @@ def compute_metrics(pred):
 # Training arguments
 training_args = TrainingArguments(
     output_dir=MODEL_SAVE_PATH,
-    num_train_epochs=1,  # Ustawione na 10, ale z early stopping
-    per_device_train_batch_size=16,
-    per_device_eval_batch_size=16,
+    num_train_epochs=10,
+    per_device_train_batch_size=128,  # Increased batch size
+    per_device_eval_batch_size=128,    # Increased batch size
     warmup_steps=500,
     weight_decay=0.01,
     logging_dir=os.path.join(MODEL_SAVE_PATH, 'logs'),
@@ -95,7 +96,13 @@ training_args = TrainingArguments(
     load_best_model_at_end=True,
     metric_for_best_model="f1",
     learning_rate=5e-05,
+    fp16=True,  # Enabled mixed precision training
+    gradient_accumulation_steps=2,  # Added gradient accumulation
+    gradient_checkpointing=True,  # Enabled gradient checkpointing
 )
+
+# Enable gradient checkpointing
+model.gradient_checkpointing_enable()
 
 # Initialize Trainer
 trainer = Trainer(
