@@ -21,9 +21,9 @@ MODEL_SAVE_PATH = "./custom-dst-roberta-base-stock"
 # Ensure the directory exists
 os.makedirs(MODEL_SAVE_PATH, exist_ok=True)
 
-splits = {'train': 'train_fix_v1.csv', 'test': 'test_fix_v1.csv'}
-train_df = pd.read_csv("hf://datasets/jooni22/dst-question/" + splits["train"])
-test_df = pd.read_csv("hf://datasets/jooni22/dst-question/" + splits["test"])
+splits = {'train': 'train_fix_to_kor.csv', 'test': 'test_fix_v1.csv'}
+train_df = pd.read_csv("hf://datasets/jooni22/dst-question-plus-que-vs-stat/" + splits["train"])
+test_df = pd.read_csv("hf://datasets/jooni22/dst-question-plus-que-vs-stat/" + splits["test"])
 # # Load and prepare data
 # train_df = pd.read_csv("./train_fix_v1.csv")
 # test_df = pd.read_csv("./test_fix_v1.csv")
@@ -87,7 +87,7 @@ def compute_metrics(pred):
 # Training arguments
 training_args = TrainingArguments(
     output_dir=MODEL_SAVE_PATH,
-    num_train_epochs=30,
+    num_train_epochs=10,
     per_device_train_batch_size=164,  # Increased batch size
     per_device_eval_batch_size=164,    # Increased batch size
     warmup_steps=500,
