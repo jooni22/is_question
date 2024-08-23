@@ -157,3 +157,9 @@ dmypy.json
 # Komentarz: Ten plik .gitignore zawiera typowe wzorce dla projektów Pythona,
 # ignorując pliki tymczasowe, katalogi środowisk wirtualnych, pliki IDE,
 # pliki kompilowane i wiele innych, które nie powinny być śledzone przez Git.
+# Wykluczenie katalogu LATEST_BEST_MODEL, ale pozwolenie na wysłanie na serwer Git
+TRAIN/INTENT_CLASS/LATEST_BEST_MODEL/model.safetensors
+!TRAIN/INTENT_CLASS/LATEST_BEST_MODEL/*.json
+!TRAIN/INTENT_CLASS/LATEST_BEST_MODEL/*.csv
+!TRAIN/INTENT_CLASS/LATEST_BEST_MODEL/*.txt
+!TRAIN/INTENT_CLASS/translated_kor_3i4k_csv/*
