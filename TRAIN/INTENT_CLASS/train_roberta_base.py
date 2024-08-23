@@ -16,7 +16,7 @@ import os
 from tqdm import tqdm
 
 # Define the model save path
-MODEL_SAVE_PATH = "./custom-dst-roberta-base"
+MODEL_SAVE_PATH = "./custom-dst-roberta-base-stock"
 
 # Ensure the directory exists
 os.makedirs(MODEL_SAVE_PATH, exist_ok=True)
@@ -33,7 +33,7 @@ train_dataset = Dataset.from_pandas(train_df)
 test_dataset = Dataset.from_pandas(test_df)
 
 # Initialize tokenizer and model
-model_name = "jooni22/custom-dst-roberta-base"
+model_name = "FacebookAI/roberta-base"
 tokenizer = RobertaTokenizerFast.from_pretrained(model_name)
 model = RobertaForSequenceClassification.from_pretrained(
     model_name,
